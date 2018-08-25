@@ -9,4 +9,4 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/',(req, res)=>res.render('broadcaster'));
 
-app.listen(3000,()=> console.log('server started'));
+app.listen(3001,()=> console.log('server started'));
